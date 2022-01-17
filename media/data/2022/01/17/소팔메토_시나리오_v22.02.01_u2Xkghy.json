@@ -1,0 +1,322 @@
+{
+	"0": {
+		"0": {
+			"unit_index": 0,
+			"combo_index": -1,
+			"line_task_name": "소팔메토_시나리오01"
+		},
+		"1": {
+			"unit_index": 1,
+			"combo_index": -1,
+			"combo_search_site": "https://naver.com"
+		},
+		"2": {
+			"unit_index": 2,
+			"combo_index": -1,
+			"line_filter_type": 0,
+			"combo_filter_tag": "a",
+			"combo_filter_attr": "href",
+			"combo_filter_op": "EQ",
+			"combo_filter_item": "https://shopping.naver.com/"
+		},
+		"3": {
+			"unit_index": 5,
+			"combo_index": -1,
+			"combo_key_click_key": "Mouse.CLICK",
+			"check_alt_key": false,
+			"check_ctrl_key": false,
+			"check_shift_key": false,
+			"line_key_wait": "0",
+			"line_key_repeat": "1"
+		},
+		"4": {
+			"unit_index": 2,
+			"combo_index": -1,
+			"line_filter_type": 0,
+			"combo_filter_tag": "input",
+			"combo_filter_attr": "class",
+			"combo_filter_op": "EQ",
+			"combo_filter_item": "co_srh_input _input N=a:SNB.search"
+		},
+		"5": {
+			"unit_index": 4,
+			"combo_index": -1,
+			"plain_keywords": "소팔메토",
+			"combo_keyword_type": "첫항목만 선택"
+		},
+		"6": {
+			"unit_index": 2,
+			"combo_index": -1,
+			"line_filter_type": 0,
+			"combo_filter_tag": "a",
+			"combo_filter_attr": "class",
+			"combo_filter_op": "EQ",
+			"combo_filter_item": "co_srh_btn _search N=a:SNB.search"
+		},
+		"7": {
+			"unit_index": 5,
+			"combo_index": -1,
+			"combo_key_click_key": "Mouse.CLICK",
+			"check_alt_key": false,
+			"check_ctrl_key": false,
+			"check_shift_key": false,
+			"line_key_wait": "0",
+			"line_key_repeat": "1"
+		},
+		"8": {
+			"unit_index": 5,
+			"combo_index": -1,
+			"combo_key_click_key": "Keys.PAGEDOWN",
+			"check_alt_key": false,
+			"check_ctrl_key": false,
+			"check_shift_key": false,
+			"line_key_wait": "1",
+			"line_key_repeat": "18"
+		},
+		"9": {
+			"unit_index": 2,
+			"combo_index": -1,
+			"line_filter_type": 0,
+			"combo_filter_attr": "class",
+			"combo_filter_op": "EQ",
+			"combo_filter_item": "basicList_item__2XT81"
+		},
+		"10": {
+			"unit_index": 3,
+			"combo_index": -1,
+			"line_filter_type": 1,
+			"combo_filter_tag": "a",
+			"combo_filter_op": "LIKE",
+			"combo_filter_item": "이운재"
+		},
+		"11": {
+			"unit_index": 5,
+			"combo_index": -1,
+			"combo_key_click_key": "Mouse.CLICK",
+			"check_alt_key": false,
+			"check_ctrl_key": false,
+			"check_shift_key": false,
+			"line_key_wait": "1",
+			"line_key_repeat": "1"
+		},
+		"12": {
+			"unit_index": 10,
+			"combo_index": -1,
+			"combo_jump_type": "이전유닛 성공시",
+			"line_jump_number": "34"
+		},
+		"13": {
+			"unit_index": 2,
+			"combo_index": -1,
+			"line_filter_type": 0,
+			"combo_filter_tag": "a",
+			"combo_filter_attr": "text",
+			"combo_filter_op": "EQ",
+			"combo_filter_item": "2"
+		},
+		"14": {
+			"unit_index": 5,
+			"combo_index": -1,
+			"combo_key_click_key": "Mouse.CLICK",
+			"check_alt_key": false,
+			"check_ctrl_key": false,
+			"check_shift_key": false,
+			"line_key_wait": "0",
+			"line_key_repeat": "1"
+		},
+		"15": {
+			"unit_index": 5,
+			"combo_index": -1,
+			"combo_key_click_key": "Keys.PAGEDOWN",
+			"check_alt_key": false,
+			"check_ctrl_key": false,
+			"check_shift_key": false,
+			"line_key_wait": "1",
+			"line_key_repeat": "18"
+		},
+		"16": {
+			"unit_index": 2,
+			"combo_index": -1,
+			"line_filter_type": 0,
+			"combo_filter_attr": "class",
+			"combo_filter_op": "EQ",
+			"combo_filter_item": "basicList_item__2XT81"
+		},
+		"17": {
+			"unit_index": 3,
+			"combo_index": -1,
+			"line_filter_type": 1,
+			"combo_filter_tag": "a",
+			"combo_filter_op": "LIKE",
+			"combo_filter_item": "이운재"
+		},
+		"18": {
+			"unit_index": 5,
+			"combo_index": -1,
+			"combo_key_click_key": "Mouse.CLICK",
+			"check_alt_key": false,
+			"check_ctrl_key": false,
+			"check_shift_key": false,
+			"line_key_wait": "1",
+			"line_key_repeat": "1"
+		},
+		"19": {
+			"unit_index": 10,
+			"combo_index": -1,
+			"combo_jump_type": "이전유닛 성공시",
+			"line_jump_number": "34"
+		},
+		"20": {
+			"unit_index": 2,
+			"combo_index": -1,
+			"line_filter_type": 0,
+			"combo_filter_tag": "a",
+			"combo_filter_attr": "text",
+			"combo_filter_op": "EQ",
+			"combo_filter_item": "3"
+		},
+		"21": {
+			"unit_index": 5,
+			"combo_index": -1,
+			"combo_key_click_key": "Mouse.CLICK",
+			"check_alt_key": false,
+			"check_ctrl_key": false,
+			"check_shift_key": false,
+			"line_key_wait": "0",
+			"line_key_repeat": "1"
+		},
+		"22": {
+			"unit_index": 5,
+			"combo_index": -1,
+			"combo_key_click_key": "Keys.PAGEDOWN",
+			"check_alt_key": false,
+			"check_ctrl_key": false,
+			"check_shift_key": false,
+			"line_key_wait": "1",
+			"line_key_repeat": "18"
+		},
+		"23": {
+			"unit_index": 2,
+			"combo_index": -1,
+			"line_filter_type": 0,
+			"combo_filter_attr": "class",
+			"combo_filter_op": "EQ",
+			"combo_filter_item": "basicList_item__2XT81"
+		},
+		"24": {
+			"unit_index": 3,
+			"combo_index": -1,
+			"line_filter_type": 1,
+			"combo_filter_tag": "a",
+			"combo_filter_op": "LIKE",
+			"combo_filter_item": "이운재"
+		},
+		"25": {
+			"unit_index": 5,
+			"combo_index": -1,
+			"combo_key_click_key": "Mouse.CLICK",
+			"check_alt_key": false,
+			"check_ctrl_key": false,
+			"check_shift_key": false,
+			"line_key_wait": "1",
+			"line_key_repeat": "1"
+		},
+		"26": {
+			"unit_index": 10,
+			"combo_index": -1,
+			"combo_jump_type": "이전유닛 성공시",
+			"line_jump_number": "34"
+		},
+		"27": {
+			"unit_index": 2,
+			"combo_index": -1,
+			"line_filter_type": 0,
+			"combo_filter_tag": "a",
+			"combo_filter_attr": "text",
+			"combo_filter_op": "EQ",
+			"combo_filter_item": "4"
+		},
+		"28": {
+			"unit_index": 5,
+			"combo_index": -1,
+			"combo_key_click_key": "Mouse.CLICK",
+			"check_alt_key": false,
+			"check_ctrl_key": false,
+			"check_shift_key": false,
+			"line_key_wait": "0",
+			"line_key_repeat": "1"
+		},
+		"29": {
+			"unit_index": 5,
+			"combo_index": -1,
+			"combo_key_click_key": "Keys.PAGEDOWN",
+			"check_alt_key": false,
+			"check_ctrl_key": false,
+			"check_shift_key": false,
+			"line_key_wait": "1",
+			"line_key_repeat": "18"
+		},
+		"30": {
+			"unit_index": 2,
+			"combo_index": -1,
+			"line_filter_type": 0,
+			"combo_filter_attr": "class",
+			"combo_filter_op": "EQ",
+			"combo_filter_item": "basicList_item__2XT81"
+		},
+		"31": {
+			"unit_index": 3,
+			"combo_index": -1,
+			"line_filter_type": 1,
+			"combo_filter_tag": "a",
+			"combo_filter_op": "LIKE",
+			"combo_filter_item": "이운재"
+		},
+		"32": {
+			"unit_index": 10,
+			"combo_index": -1,
+			"combo_jump_type": "이전유닛 실패시",
+			"line_jump_number": "37"
+		},
+		"33": {
+			"unit_index": 5,
+			"combo_index": -1,
+			"combo_key_click_key": "Mouse.CLICK",
+			"check_alt_key": false,
+			"check_ctrl_key": false,
+			"check_shift_key": false,
+			"line_key_wait": "1",
+			"line_key_repeat": "1"
+		},
+		"34": {
+			"unit_index": 9,
+			"combo_index": -1,
+			"line_time_break": "10"
+		},
+		"35": {
+			"unit_index": 5,
+			"combo_index": -1,
+			"combo_key_click_key": "Keys.PAGEDOWN",
+			"check_alt_key": false,
+			"check_ctrl_key": false,
+			"check_shift_key": false,
+			"line_key_wait": "1",
+			"line_key_repeat": "40"
+		},
+		"36": {
+			"unit_index": 5,
+			"combo_index": -1,
+			"combo_key_click_key": "Keys.PAGEUP",
+			"check_alt_key": false,
+			"check_ctrl_key": false,
+			"check_shift_key": false,
+			"line_key_wait": "1",
+			"line_key_repeat": "40"
+		},
+		"37": {
+			"unit_index": 9,
+			"combo_index": -1,
+			"line_time_break": "10"
+		}
+	}
+}

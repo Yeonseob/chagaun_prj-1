@@ -1,0 +1,59 @@
+{% load static %}
+{% include "include/head.html" %}
+{% include "include/header_02.html" %}
+{% include "include/sub_visual.html" %}
+{% include "include/sub_nav.html" %}
+
+<!-- content -->
+<section class="sub_container" >
+	<div class="wrap">
+		{% include "include/title.html" %}
+		<div class="sub_contents">
+
+
+
+			<!-- 도움말 -->
+
+			<div class="faq_list ">
+				<dl>
+					<dt>
+						<p class="heading">Klicker</p>
+						<p class="title">
+						22.02.01--Released 17 Jan, 2022
+						</p>
+						<p class="view"></p>
+					</dt>
+					<dd id="" style="display: none;">
+							<p>
+								The Klicker Community Projects team is proud to launch Klicker 20.02.01. The most notable change is the free registration and deletion of recipes.
+							</p>
+							<br>
+						<div class="middle">
+							<p><a href="{% url 'download-setup' filename='KlickerSetup.exe' %}" target="_blank" download class="download"><span class="en">Klicker-22.02.01.exe</span></a></p>
+						</div>
+					</dd>
+				</dl>
+				
+
+			<!-- 도움말 -->
+
+
+		</div>
+	</div>
+</section>
+<!-- //content -->
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".faq_list dt").click(function (){
+		var vol = $(".faq_list dt").index(this);
+		$(".faq_list dd:eq("+vol+")").slideToggle('fast');
+		$(".faq_list dd").not(":eq("+vol+")").slideUp('fast');
+	});
+});
+</script>
+
+
+{% include "include/footer.html" %}
+{% include "include/foot.html" %}
